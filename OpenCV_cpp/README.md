@@ -1,6 +1,6 @@
 ### Install Opencv
 Open a terminal, and follow the steps:
-> git clone https://github.com/Shaxpy/Raspberry-Pi4 <br>
+> git clone https://github.com/Shaxpy/Intel_Realsense_D455 <br>
 > cd Intel_D455/OpenCV_cpp <br>
 > sudo chmod +x install.sh <br>
 > sudo ./install.sh <br>
