@@ -1,7 +1,7 @@
 ### Install Opencv
 Open a terminal, and follow the steps:
 > git clone https://github.com/Shaxpy/Intel_Realsense_D455 <br>
-> cd OpenCV_cpp <br>
+> cd /OpenCV_cpp <br>
 > sudo chmod +x install.sh <br>
 > sudo ./install.sh <br>
 
@@ -18,7 +18,7 @@ Open a terminal, and follow the steps:
 > make install <br>
 > ldconfig <br>
 > exit <br>
-> cd Intel_D455/OpenCV_cpp <br>
+> cd /OpenCV_cpp <br>
 > sudo cp opencv.pc /usr/local/lib/pkgconfig/opencv.pc <br>
 > PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig <br>
 > export PKG_CONFIG_PATH <br>
