@@ -1,6 +1,10 @@
-### Experiments with Intel Realsense D455 Depth Camera
+### Setup Intel Realsense D455 Depth Camera
 - [Beginning with Raspberry Pi4](https://github.com/Shaxpy/Raspberry-Pi4)
-- [Installing Librealsense SDK 2.0](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation.md)
+- Install ROS-[ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
+- ROS wrapper for Realsense D400 series - [realsense-ros](https://github.com/IntelRealSense/realsense-ros)
+- Debian install for Realsense SDK2.0 -[librealsense/distribution](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md#installing-the-packages)
+- Some patches for Ubuntu -[librealsense/installation](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation.md) <br>
+#### Working with D455
 - [Setup OpenCV for C/C++ ](https://github.com/Shaxpy/Intel_Realsense_D455/tree/master/OpenCV_cpp)
 - [Take a pic on D455!](https://github.com/Shaxpy/Intel_Realsense_D455/tree/master/Testing/intel)
 #### Calibrating normal USB Cameras
