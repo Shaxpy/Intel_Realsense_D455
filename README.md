@@ -2,6 +2,13 @@
 - [Beginning with Raspberry Pi4](https://github.com/Shaxpy/Raspberry-Pi4)
 - Install ROS-[ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
 - ROS wrapper for Realsense D400 series - [realsense-ros](https://github.com/IntelRealSense/realsense-ros)
+#### Installing Intel® RealSense™ SDK2.0
+> $ sudo apt-get install libusb-1.0-0-dev <br>
+$ git clone https://github.com/IntelRealSense/librealsense.git <br>
+$ cd librealsense/ <br>
+$ mkdir build && cd build <br>
+$ cmake ../ -DFORCE_RSUSB_BACKEND=true -DBUILD_PYTHON_BINDINGS=true -DCMAKE_BUILD_TYPE=release -DBUILD_EXAMPLES=true -DBUILD_GRAPHICAL_EXAMPLES=true <br>
+$ sudo make uninstall && make clean && make && sudo make install <br>
 - Debian install for Realsense SDK2.0 -[librealsense/distribution](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md#installing-the-packages)
 - Some patches for Ubuntu -[librealsense/installation](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation.md) <br>
 #### Working with D455
